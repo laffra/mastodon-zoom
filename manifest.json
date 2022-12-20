@@ -1,0 +1,28 @@
+{
+  "name": "Mastodon Zoom",
+  "short_name": "mastodon-zoom",
+  "description": "Viewer that focuses on Mastodon articles only",
+  "version": "1.1",
+  "permissions": [],
+  "author": "Chris Laffra - chris@chrislaffra.com",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://techhub.social/*"
+      ],
+      "js": [
+        "jquery.js",
+        "contentscript.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "38": "logo-38.png"
+    },
+    "default_title": "Mastodon Viewer"
+  },
+  "content_security_policy": {}
+}
