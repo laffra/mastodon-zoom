@@ -2,7 +2,7 @@
   "name": "Mastodon Zoom",
   "short_name": "mastodon-zoom",
   "description": "Viewer that focuses on Mastodon articles only",
-  "version": "1.1",
+  "version": "1.2",
   "permissions": [],
   "author": "Chris Laffra - chris@chrislaffra.com",
   "content_scripts": [
