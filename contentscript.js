@@ -31,6 +31,7 @@
     }
 
     $(document.body).on("keydown", (event) => {
+        if (event.target.tagName != "DIV") return;
         switch (event.key) {
         case 'ArrowDown':
         case 'j':
