@@ -19,7 +19,7 @@ This is the preferred installation.
   
 ## Adding a Mastodon Server
 
-The currently supported servers are listed in [contentscript.js](https://github.com/laffra/mastodon-zoom/blob/main/contentscript.js). 
+The currently supported servers are listed in [manifest.json](https://github.com/laffra/mastodon-zoom/blob/main/manifest.json). 
 To add another server, locate the list of domains starting on line 11 and add your preferred Mastodon Server.
 Send a PR to add your server. In the meantime, you can try out your change by manually installing.
 
